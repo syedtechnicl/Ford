@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.all{
+    font-size:30px;
+     margin:5px;
+     color:red;
+     font-weight:bold;
+}
+
+
+h3{
+    background-color:red;
+    padding:10px;
+    border-radius:120%;
+    color:#fff;
+}
+
+
+
+.btn-sm{
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: red !important;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  
+}
+
+
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+  .small-button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .small-button {
+    font-size: 8px;
+    padding: 4px 8px;
+  }
+}
+
+
+@keyframes colorChangeAnimation {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: purple; }
+    100% { color: red; }
+  }
+  
+  h4{
+    animation: colorChangeAnimation 4s linear infinite;
+  }
+
+  button{
+    font-weight:bold !important;
+  }
+
+
+  /* new */
+  body {
+    margin: 0;
+    background-color: #363958;
+  }
+  
+  .submit-area {
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px gray;
+    color: white;
+    background-color: royalblue;
+  }
+  
+  #account-area {
+    margin-top: 5%;
+  }
+  
+  .deposit {
+    background-color: slateblue;
+  }
+  
+  .withdraw {
+    background-color: lightsalmon;
+  }
+  
+  .balance {
+    background-color: tomato;
+  }
+  
+  .status {
+    margin: 0 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+
+  span{
+    color:red;
+    border:1px solid red;
+    padding:4px;
+    border-radius:12px; 
+  }
+
+
+  .display {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* You can set the background color as per your design */
+    padding: 10px; /* Optional padding to provide some spacing around the content */
+    /* Add any other styles you want for the fixed footer */
+  }
+
+
+.display li{
+  display:inline-block;
+
+}
+
